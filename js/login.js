@@ -7,10 +7,8 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   console.log(email, password);
 
   if (email === "child@father.com" && password === "children") {
-    console.log("login successful");
+    window.location.href = "bank.html";
   } else {
     console.log("invalid");
   }
-  userEmail.value = "";
-  userPassword.value = "";
 });
